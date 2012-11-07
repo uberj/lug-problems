@@ -1,6 +1,8 @@
 IPv6 Problem
 ============
-Given an inclusive contiguous range of positive integerers between `a` and `b` and a list of lists where each sublist contains integers between `a` and `b`, which integers do not occur in any of the lists.
+Given an inclusive contiguous range of positive integerers between `a` and `b`
+and a list of lists where each sublist contains integers between `a` and `b`,
+which integers satisfy `a <= n <= b` and do not exist in in any of the lists.
 
 For example:
 
@@ -24,4 +26,7 @@ Rules:
 
 Make the tests pass
 -------------------
-There is a file called `calc\_usage` in this directory with a method header. Implement the method. You can run the tests by doing `python usage\_tests.py`. If you want to run a specific test you can do: `python -m unittest usage\_tests.UsageTests.<nameOfTheTest>`
+There is a file called `calc_usage` in this directory with a method header.
+Implement the method. You can run the tests by doing `python usage_tests.py`.
+If you want to run a specific test you can do: `python -m unittest
+usage_tests.UsageTests.<nameOfTheTest>`
