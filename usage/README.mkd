@@ -1,0 +1,27 @@
+IPv6 Problem
+============
+Given an inclusive contiguous range of positive integerers between `a` and `b` and a list of lists where each sublist contains integers between `a` and `b`, which integers do not occur in any of the lists.
+
+For example:
+
+```
+    Start = 0
+    End = 9
+    Lists = [[1,2,3], [2,3,4]]
+```
+
+The integers that do not occur in `Lists` are `0`, `5`, `6`, `7`, `8`, and `9`.
+
+Write a function to determine how many numbers are 'used' and how many are
+'unused'. _(Hint, calculate unused)_
+
+Beware: Start can be small and End can be very large (the range may be larger
+than you would want to itterate over).
+
+Rules:
+------
+    * You cannot merge any two lists (do everything inplace)
+
+Make the tests pass
+-------------------
+There is a file called `calc\_usage` in this directory with a method header. Implement the method. You can run the tests by doing `python usage\_tests.py`. If you want to run a specific test you can do: `python -m unittest usage\_tests.UsageTests.<nameOfTheTest>`
