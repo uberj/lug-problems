@@ -22,7 +22,7 @@ than you would want to itterate over).
 
 Rules:
 ------
-    * You cannot merge any two lists (do everything inplace)
+*   You cannot merge any two lists (do everything inplace)
 
 Make the tests pass
 -------------------
