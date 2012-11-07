@@ -1,6 +1,6 @@
 IPv6 Problem
 ============
-Given an inclusive contiguous range of positive integerers between `a` and `b`
+Given an inclusive contiguous range of positive integers between `a` and `b`
 and a list of lists where each sublist contains integers that are within the range,
 how many integers between `a` and `b` do not exist in any of the lists.
 
