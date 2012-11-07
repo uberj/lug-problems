@@ -26,7 +26,7 @@ Rules:
 
 Make the tests pass
 -------------------
-There is a file called `calc_usage` in this directory with a method header.
-Implement the method. You can run the tests by doing `python usage_tests.py`.
+There is a file called `calc_usage` in this directory with a function stub.
+Implement the function. You can run the tests by doing `python usage_tests.py`.
 If you want to run a specific test you can do: `python -m unittest
 usage_tests.UsageTests.<nameOfTheTest>`
