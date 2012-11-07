@@ -2,7 +2,7 @@ IPv6 Problem
 ============
 Given an inclusive contiguous range of positive integerers between `a` and `b`
 and a list of lists where each sublist contains integers that are within the range,
-how many integers between `a` and `b` do not exist in in any of the lists.
+how many integers between `a` and `b` do not exist in any of the lists.
 
 For example:
 
@@ -12,7 +12,7 @@ For example:
     Lists = [[1,2,3], [2,3,4]]
 ```
 
-The integers that do not occur in `Lists` are `0`, `5`, `6`, `7`, `8`, and `9`, so there are 6 integers that do not exist in Lists that satisfy `Start <= n End`.
+The integers that do not occur in `Lists` are `0`, `5`, `6`, `7`, `8`, and `9`, so there are 6 integers that do not exist in Lists that satisfy `Start <= n <= End`.
 
 Write a function to determine how many numbers are 'used' and how many are
 'unused'. _(Hint, calculate unused)_
